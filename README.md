@@ -12,7 +12,7 @@ After analyzing the problem statement, we've identified key business questions:
 5. What strategies could be implemented to reduce healthcare expenses?
 
 ## Dataset Characteristics
-Dataset Link: <a href = "https://intro-datascience.s3.us-east-2.amazonaws.com/HMO_data.csv"> HMO-Healthcare-Cost-Prediction </a><br>
+Dataset Link: <a href = "https://intro-datascience.s3.us-east-2.amazonaws.com/HMO_data.csv"> HMO-Healthcare-Cost-Prediction </a><br> (filename: HMO_data.csv)
 The dataset comprises 7582 observations and 14 attributes.
 
 ## Data Preparation and Cleaning
@@ -147,3 +147,10 @@ We aim to predict whether an individual will incur high healthcare costs next ye
 ## Conclusion
 The Decision Tree model provides the best balance of accuracy and sensitivity for predicting high healthcare costs. Our analysis also identifies key factors driving costs and suggests potential interventions to reduce them. This information can be valuable for healthcare providers and policymakers in managing and minimizing healthcare expenses.
 
+## Shiny Application
+To further explore and interact with the best model, we've developed a user-friendly Shiny application. This web app allows you to input individual characteristics (age, BMI, smoking status, etc.) and instantly see the predicted future healthcare cost category ("expensive" or "not expensive"). Access the Shiny app to test the model yourself and gain a deeper understanding of potential healthcare expenses!
+***Shiny Application link*** : <a href = "https://doshiharmish.shinyapps.io/Project_Final_ShinyApp/"> HMO-Healthcare-Cost-Prediction </a>
+Files to be used:
+1. treeModel.csv (Sample Input File)
+2. HMO_TEST_data_sample_solution.csv <br>
+![image](https://github.com/doshiharmish/HMO-Healthcare-Cost-Prediction/assets/16878994/d7a36831-839b-4117-b001-922ba74628b3)
