@@ -122,7 +122,7 @@ Visualized average costs across select states, particularly highlighting higher 
 ## Training Models
 We aim to predict whether an individual will incur high healthcare costs next year. We achieved this by building and evaluating several classification models using supervised learning. Each model outputs a categorical classification of "expensive" or "not expensive" based on the input data.
 
-### 1. Logistic Regression:
+### 1. Linear Regression:
 - Accurately identified 89.18% of cases.
 - Strong ability to identify "not expensive" cases (Sensitivity: 96.28%).
 - Moderate ability to identify "expensive" cases (Specificity: 68.52%).
